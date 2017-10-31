@@ -1,0 +1,23 @@
+{
+  "name": "imsbotframework",
+  "version": "1.0.0",
+  "description": "ims bto cviko",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smiesnyrobert/imsbotframework.git"
+  },
+  "author": "robo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smiesnyrobert/imsbotframework/issues"
+  },
+  "homepage": "https://github.com/smiesnyrobert/imsbotframework#readme",
+  "dependencies": {
+    "botbuilder": "^3.11.0",
+    "restify": "^6.2.3"
+  }
+}
