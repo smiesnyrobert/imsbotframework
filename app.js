@@ -6,8 +6,7 @@ require('botbuilder');
 //=========================================================
 // Setup Restify Server
 var server = restify.createServer();
-server.listen(process.env.port || pro
-cess.env.PORT || 3978, function () {
+server.listen(process.env.port || process.env.PORT || 3978, function () {
 console.log('%s listening to %s', server.name, server.url); 
 });
 // Create chat bot
@@ -20,7 +19,6 @@ server.post('/api/messages', connector.listen());
 //=========================================================
 // Bots Dialogs
 //=========================================================
-bot.dialo
-g('/', function (session) {
+bot.dialog('/', function (session) {
 session.send("Hello World");
 });
